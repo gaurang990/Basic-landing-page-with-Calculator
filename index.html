@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>ReSto – Burger Landing Page</title>
+
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-mode">
+
+<!-- ================= HEADER / HOME ================= -->
+<header>
+
+  <!-- NAVBAR -->
+  <nav>
+    <div class="logo">ESto</div>
+    <div class="menu">
+      <a href="#"><i class="fa-solid fa-house"></i></a>
+      <a href="#"><i class="fa-solid fa-user"></i></a>
+      <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+    </div>
+  </nav>
+
+  <!-- HERO TEXT -->
+  <div class="h-text">
+    <p>Freshly Crafted</p>
+    <h1>Delicious <span>Burgers</span><br>For Food Lovers</h1>
+    <h2>Juicy • Cheesy • Handmade</h2>
+
+    <a href="#" id="order">Order Now</a>
+    <a href="#" id="dis">Flat 25% Off</a>
+  </div>
+
+  <!-- CUSTOM BURGER -->
+  <div class="burger-wrap">
+    <div class="burger">
+      <span class="bun top"></span>
+      <span class="lettuce"></span>
+      <span class="cheese"></span>
+      <span class="patty"></span>
+      <span class="bun bottom"></span>
+    </div>
+  </div>
+
+</header>
+
+
+<!-- ================= ABOUT SECTION ================= -->
+<section class="about-section">
+  <div class="about-container">
+
+    <!-- LEFT IMAGE -->
+    <div class="about-img">
+      <img 
+        src="https://www.clipartmax.com/png/middle/283-2834841_burger-png.png"
+        alt="Delicious Burger">
+    </div>
+
+    <!-- RIGHT TEXT -->
+    <div class="about-text">
+      <h2>About <span>EeSto</span></h2>
+      <p>
+        ReSto is all about serving the most delicious and freshly cooked burgers.
+        Our passion for quality ingredients and handcrafted recipes makes every
+        bite unforgettable.
+      </p>
+      <p>
+        From classic favorites to signature creations, our mission is to deliver
+        taste and happiness to every customer who visits us.
+      </p>
+      <a href="https://example.com/about" target="_blank" class="about-link">
+        Learn More
+      </a>
+    </div>
+
+  </div>
+</section>
+
+
+
+<!-- ================= GREET SECTION ================= -->
+ <!-- ================= GREET SECTION ================= -->
+<section class="greet-section">
+  <div class="greet-container">
+
+    <!-- Greeting Box -->
+    <div class="greet-box">
+      <h2>Say Hello to <span>ReSto</span> 🍔</h2>
+      <p>Enter your name & get greeted personally!</p>
+
+      <div class="greet-input">
+        <input type="text" id="username" placeholder="Your Name">
+        <button onclick="greetUser()">Greet Me</button>
+      </div>
+
+      <h3 id="greet-msg"></h3>
+    </div>
+
+    <!-- Email Subscription Box -->
+    <div class="subscribe-box">
+      <h2>Stay Updated</h2>
+      <p>Subscribe to our newsletter for exclusive offers & updates.</p>
+
+      <div class="subscribe-input">
+        <input type="email" id="userEmail" placeholder="Your Email">
+        <button onclick="subscribeUser()">Subscribe</button>
+      </div>
+
+      <h4 id="subscribe-msg"></h4>
+    </div>
+
+    <!-- Social Links -->
+    <div class="social-box">
+      <h2>Follow Us</h2>
+      <p>Stay connected on social media for latest news & offers.</p>
+      <div class="social-icons">
+        <a href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ================= CALCULATOR SECTION ================= -->
+<section class="calculator-section">
+  <div class="calculator-box">
+    <h2>Simple Calculator</h2>
+    <p>Add Two Numbers Easily</p>
+
+    <div class="calc-inputs">
+      <input type="number" id="num1" placeholder="Enter first number">
+      <input type="number" id="num2" placeholder="Enter second number">
+    </div>
+
+    <button onclick="addNumbers()">Add Numbers</button>
+
+    <h3>Result: <span id="result">0</span></h3>
+  </div>
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+<footer>
+  <div class="footer-container">
+    <h3>ReSto 🍔</h3>
+    <p>© 2026 ReSto. All Rights Reserved.</p>
+    <div class="footer-social">
+      <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#"><i class="fa-brands fa-twitter"></i></a>
+      <a href="#"><i class="fa-brands fa-instagram"></i></a>
+    </div>
+  </div>
+</footer>
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
