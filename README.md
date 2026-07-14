@@ -54,16 +54,6 @@ Open the `index.html` file in your browser.
 
 No additional installation or server setup is required.
 
-## 📸 Screenshots
-
-Add screenshots of your project:
-
-```text
-screenshots/
-├── landing-page.png
-├── calculator.png
-└── mobile-view.png
-```
 
 ## 🎯 Project Purpose
 
